@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5A3D3BFE4C23DEB2591447 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2372239FFFC6E659204921 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework */; };
+		9C5AAFA37D347D5A1BD334D2 /* Pods_NeverHaveIEverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF74F66BDBF3063FA82FF475 /* Pods_NeverHaveIEverTests.framework */; };
 		C6E178DD23EB503C00196382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DC23EB503C00196382 /* AppDelegate.swift */; };
 		C6E178DF23EB503C00196382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DE23EB503C00196382 /* SceneDelegate.swift */; };
 		C6E178E123EB503C00196382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178E023EB503C00196382 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		C6E178E923EB503F00196382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E178E723EB503F00196382 /* LaunchScreen.storyboard */; };
 		C6E178F423EB503F00196382 /* NeverHaveIEverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178F323EB503F00196382 /* NeverHaveIEverTests.swift */; };
 		C6E178FF23EB503F00196382 /* NeverHaveIEverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178FE23EB503F00196382 /* NeverHaveIEverUITests.swift */; };
+		FFC27265130431ED69FFA85F /* Pods_NeverHaveIEver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA878052F62AE606CED9EAE /* Pods_NeverHaveIEver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1205F89AC21F85AA40EEC677 /* Pods-NeverHaveIEverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEverTests.debug.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEverTests/Pods-NeverHaveIEverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		14B8CDFC133CAB6271C142AB /* Pods-NeverHaveIEver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEver.debug.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEver/Pods-NeverHaveIEver.debug.xcconfig"; sourceTree = "<group>"; };
+		3E0C0955D0D0B613539B4CD9 /* Pods-NeverHaveIEver-NeverHaveIEverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEver-NeverHaveIEverUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEver-NeverHaveIEverUITests/Pods-NeverHaveIEver-NeverHaveIEverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5078E55C15A3407A0A02C1D3 /* Pods-NeverHaveIEver-NeverHaveIEverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEver-NeverHaveIEverUITests.release.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEver-NeverHaveIEverUITests/Pods-NeverHaveIEver-NeverHaveIEverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5742F4359598D97CC301B69D /* Pods-NeverHaveIEver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEver.release.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEver/Pods-NeverHaveIEver.release.xcconfig"; sourceTree = "<group>"; };
+		78C8D30752EE3579FCCD1E94 /* Pods-NeverHaveIEverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEverTests.release.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEverTests/Pods-NeverHaveIEverTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DA878052F62AE606CED9EAE /* Pods_NeverHaveIEver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverHaveIEver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2372239FFFC6E659204921 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverHaveIEver_NeverHaveIEverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E178D923EB503C00196382 /* NeverHaveIEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverHaveIEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E178DC23EB503C00196382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E178DE23EB503C00196382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		C6E178FA23EB503F00196382 /* NeverHaveIEverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverHaveIEverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E178FE23EB503F00196382 /* NeverHaveIEverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverUITests.swift; sourceTree = "<group>"; };
 		C6E1790023EB503F00196382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF74F66BDBF3063FA82FF475 /* Pods_NeverHaveIEverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverHaveIEverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC27265130431ED69FFA85F /* Pods_NeverHaveIEver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5AAFA37D347D5A1BD334D2 /* Pods_NeverHaveIEverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5A3D3BFE4C23DEB2591447 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D3900860B68DA3C8E2C4640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DA878052F62AE606CED9EAE /* Pods_NeverHaveIEver.framework */,
+				8F2372239FFFC6E659204921 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework */,
+				FF74F66BDBF3063FA82FF475 /* Pods_NeverHaveIEverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6E178D023EB503C00196382 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				C6E178F223EB503F00196382 /* NeverHaveIEverTests */,
 				C6E178FD23EB503F00196382 /* NeverHaveIEverUITests */,
 				C6E178DA23EB503C00196382 /* Products */,
+				DCF0ACD9E13767BCD48EE9FB /* Pods */,
+				8D3900860B68DA3C8E2C4640 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = NeverHaveIEverUITests;
 			sourceTree = "<group>";
 		};
+		DCF0ACD9E13767BCD48EE9FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14B8CDFC133CAB6271C142AB /* Pods-NeverHaveIEver.debug.xcconfig */,
+				5742F4359598D97CC301B69D /* Pods-NeverHaveIEver.release.xcconfig */,
+				3E0C0955D0D0B613539B4CD9 /* Pods-NeverHaveIEver-NeverHaveIEverUITests.debug.xcconfig */,
+				5078E55C15A3407A0A02C1D3 /* Pods-NeverHaveIEver-NeverHaveIEverUITests.release.xcconfig */,
+				1205F89AC21F85AA40EEC677 /* Pods-NeverHaveIEverTests.debug.xcconfig */,
+				78C8D30752EE3579FCCD1E94 /* Pods-NeverHaveIEverTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6E1790323EB503F00196382 /* Build configuration list for PBXNativeTarget "NeverHaveIEver" */;
 			buildPhases = (
+				0655881C3A8A0C2D9727CBD9 /* [CP] Check Pods Manifest.lock */,
 				C6E178D523EB503C00196382 /* Sources */,
 				C6E178D623EB503C00196382 /* Frameworks */,
 				C6E178D723EB503C00196382 /* Resources */,
+				343BACA86BC8345780F07096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6E1790623EB503F00196382 /* Build configuration list for PBXNativeTarget "NeverHaveIEverTests" */;
 			buildPhases = (
+				54E990DDE04EB0A0EDAA1B34 /* [CP] Check Pods Manifest.lock */,
 				C6E178EB23EB503F00196382 /* Sources */,
 				C6E178EC23EB503F00196382 /* Frameworks */,
 				C6E178ED23EB503F00196382 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6E1790923EB503F00196382 /* Build configuration list for PBXNativeTarget "NeverHaveIEverUITests" */;
 			buildPhases = (
+				BD9780554F8EEBF98E263C7E /* [CP] Check Pods Manifest.lock */,
 				C6E178F623EB503F00196382 /* Sources */,
 				C6E178F723EB503F00196382 /* Frameworks */,
 				C6E178F823EB503F00196382 /* Resources */,
+				97DB268AEBD3624A3EB3A20E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0655881C3A8A0C2D9727CBD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeverHaveIEver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		343BACA86BC8345780F07096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeverHaveIEver/Pods-NeverHaveIEver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeverHaveIEver/Pods-NeverHaveIEver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeverHaveIEver/Pods-NeverHaveIEver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54E990DDE04EB0A0EDAA1B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeverHaveIEverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DB268AEBD3624A3EB3A20E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeverHaveIEver-NeverHaveIEverUITests/Pods-NeverHaveIEver-NeverHaveIEverUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeverHaveIEver-NeverHaveIEverUITests/Pods-NeverHaveIEver-NeverHaveIEverUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeverHaveIEver-NeverHaveIEverUITests/Pods-NeverHaveIEver-NeverHaveIEverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9780554F8EEBF98E263C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeverHaveIEver-NeverHaveIEverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6E178D523EB503C00196382 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		C6E1790423EB503F00196382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B8CDFC133CAB6271C142AB /* Pods-NeverHaveIEver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		C6E1790523EB503F00196382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5742F4359598D97CC301B69D /* Pods-NeverHaveIEver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		C6E1790723EB503F00196382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1205F89AC21F85AA40EEC677 /* Pods-NeverHaveIEverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		C6E1790823EB503F00196382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C8D30752EE3579FCCD1E94 /* Pods-NeverHaveIEverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		C6E1790A23EB503F00196382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0C0955D0D0B613539B4CD9 /* Pods-NeverHaveIEver-NeverHaveIEverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		C6E1790B23EB503F00196382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5078E55C15A3407A0A02C1D3 /* Pods-NeverHaveIEver-NeverHaveIEverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

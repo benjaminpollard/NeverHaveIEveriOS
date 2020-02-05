@@ -1,0 +1,40 @@
+PODS:
+  - MDPersistence (0.3.0):
+    - Realm (~> 5.0.0-beta.2)
+    - RealmSwift (~> 5.0.0-beta.2)
+  - Realm (5.0.0-beta.2):
+    - Realm/Headers (= 5.0.0-beta.2)
+  - Realm/Headers (5.0.0-beta.2)
+  - RealmSwift (5.0.0-beta.2):
+    - Realm (= 5.0.0-beta.2)
+  - SideMenu (6.4.7)
+
+DEPENDENCIES:
+  - MDPersistence (from `https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod`)
+  - SideMenu
+  - SideMenu (~> 6.0)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - SideMenu
+
+EXTERNAL SOURCES:
+  MDPersistence:
+    :git: https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod
+
+CHECKOUT OPTIONS:
+  MDPersistence:
+    :commit: e97f4c18cf522dbe0f252d1c8ffd93b0321dcce1
+    :git: https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod
+
+SPEC CHECKSUMS:
+  MDPersistence: e73453c07e56efc1a7cb79b67c2742fa1a5b2f44
+  Realm: d4359a0d12a7abd3566e12df4e12ad450ba64633
+  RealmSwift: 2c2271c1a5c07b812840ac0576dde12294cee82c
+  SideMenu: 928a015669c3afc201e1fe3a87f1b0bc8993a664
+
+PODFILE CHECKSUM: 08ced89dfd2d1ae28584b7828c65b6b96534e5b6
+
+COCOAPODS: 1.8.4
