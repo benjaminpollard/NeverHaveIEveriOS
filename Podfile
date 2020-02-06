@@ -6,9 +6,12 @@ target 'NeverHaveIEver' do
   use_frameworks!
 
   # Pods for NeverHaveIEver
-    pod 'SideMenu'
     pod 'MDPersistence', :git => 'https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod'
-    pod 'SideMenu',               '~> 6.0'
+    pod 'SideMenu', :git => 'https://github.com/benjaminpollard/SideMenu', :commit => 'd0c401d770bad63b82d3e69c3eab4697b2ae234e'
+    pod 'TinderSwipeView’ 
+
+    pod 'MaterialComponents/Cards'
+    
   target 'NeverHaveIEverTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,4 +1,35 @@
 PODS:
+  - MaterialComponents/AnimationTiming (103.1.0)
+  - MaterialComponents/Cards (103.1.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+  - MaterialComponents/Elevation (103.1.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (103.1.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Color (103.1.0)
+  - MaterialComponents/private/Icons/Base (103.1.0)
+  - MaterialComponents/private/Icons/ic_check_circle (103.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Math (103.1.0)
+  - MaterialComponents/Ripple (103.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (103.1.0)
+  - MaterialComponents/ShadowLayer (103.1.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (103.1.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
   - MDPersistence (0.3.0):
     - Realm (~> 5.0.0-beta.2)
     - RealmSwift (~> 5.0.0-beta.2)
@@ -8,33 +39,44 @@ PODS:
   - RealmSwift (5.0.0-beta.2):
     - Realm (= 5.0.0-beta.2)
   - SideMenu (6.4.7)
+  - TinderSwipeView (1.1.8)
 
 DEPENDENCIES:
+  - MaterialComponents/Cards
   - MDPersistence (from `https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod`)
-  - SideMenu
-  - SideMenu (~> 6.0)
+  - SideMenu (from `https://github.com/benjaminpollard/SideMenu`, commit `d0c401d770bad63b82d3e69c3eab4697b2ae234e`)
+  - TinderSwipeView
 
 SPEC REPOS:
   trunk:
+    - MaterialComponents
     - Realm
     - RealmSwift
-    - SideMenu
+    - TinderSwipeView
 
 EXTERNAL SOURCES:
   MDPersistence:
     :git: https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod
+  SideMenu:
+    :commit: d0c401d770bad63b82d3e69c3eab4697b2ae234e
+    :git: https://github.com/benjaminpollard/SideMenu
 
 CHECKOUT OPTIONS:
   MDPersistence:
     :commit: e97f4c18cf522dbe0f252d1c8ffd93b0321dcce1
     :git: https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod
+  SideMenu:
+    :commit: d0c401d770bad63b82d3e69c3eab4697b2ae234e
+    :git: https://github.com/benjaminpollard/SideMenu
 
 SPEC CHECKSUMS:
+  MaterialComponents: 0312a643d1aed5e5f10cba4be06a6aa62bd07c14
   MDPersistence: e73453c07e56efc1a7cb79b67c2742fa1a5b2f44
   Realm: d4359a0d12a7abd3566e12df4e12ad450ba64633
   RealmSwift: 2c2271c1a5c07b812840ac0576dde12294cee82c
   SideMenu: 928a015669c3afc201e1fe3a87f1b0bc8993a664
+  TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
 
-PODFILE CHECKSUM: 08ced89dfd2d1ae28584b7828c65b6b96534e5b6
+PODFILE CHECKSUM: 5354eec820791c90033afee6ea536012456edc16
 
 COCOAPODS: 1.8.4
