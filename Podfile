@@ -9,7 +9,7 @@ target 'NeverHaveIEver' do
     pod 'MDPersistence', :git => 'https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod'
     pod 'SideMenu', :git => 'https://github.com/benjaminpollard/SideMenu', :commit => 'd0c401d770bad63b82d3e69c3eab4697b2ae234e'
     pod 'TinderSwipeView’ 
-
+    pod 'SwiftyJSON', '5.0.0'
     pod 'MaterialComponents/Cards'
     
   target 'NeverHaveIEverTests' do

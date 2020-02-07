@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8A5A3D3BFE4C23DEB2591447 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2372239FFFC6E659204921 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework */; };
 		9C5AAFA37D347D5A1BD334D2 /* Pods_NeverHaveIEverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF74F66BDBF3063FA82FF475 /* Pods_NeverHaveIEverTests.framework */; };
+		C6DBB11B23EDC764004B404E /* NeverHaveIEverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB11A23EDC764004B404E /* NeverHaveIEverModel.swift */; };
+		C6DBB12223EDCC5A004B404E /* NeverHaveIEverCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DBB12123EDCC5A004B404E /* NeverHaveIEverCardView.xib */; };
+		C6DBB12423EDCF9C004B404E /* NeverHaveIEverCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */; };
 		C6E178DD23EB503C00196382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DC23EB503C00196382 /* AppDelegate.swift */; };
 		C6E178DF23EB503C00196382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DE23EB503C00196382 /* SceneDelegate.swift */; };
 		C6E178E123EB503C00196382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178E023EB503C00196382 /* ViewController.swift */; };
@@ -24,6 +27,8 @@
 		C6E1791723ECA6AF00196382 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1791623ECA6AF00196382 /* CardView.swift */; };
 		C6E1791923ECA81900196382 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1791823ECA81900196382 /* ActionButton.swift */; };
 		C6E1791C23ECAC6700196382 /* nau.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6E1791B23ECAC6700196382 /* nau.otf */; };
+		C6E1791E23ED76DD00196382 /* SelectGameTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1791D23ED76DD00196382 /* SelectGameTypeViewController.swift */; };
+		C6E1792023ED78BE00196382 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1791F23ED78BE00196382 /* SplashViewController.swift */; };
 		FFC27265130431ED69FFA85F /* Pods_NeverHaveIEver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA878052F62AE606CED9EAE /* Pods_NeverHaveIEver.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +58,9 @@
 		78C8D30752EE3579FCCD1E94 /* Pods-NeverHaveIEverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEverTests.release.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEverTests/Pods-NeverHaveIEverTests.release.xcconfig"; sourceTree = "<group>"; };
 		7DA878052F62AE606CED9EAE /* Pods_NeverHaveIEver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverHaveIEver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2372239FFFC6E659204921 /* Pods_NeverHaveIEver_NeverHaveIEverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverHaveIEver_NeverHaveIEverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DBB11A23EDC764004B404E /* NeverHaveIEverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverModel.swift; sourceTree = "<group>"; };
+		C6DBB12123EDCC5A004B404E /* NeverHaveIEverCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeverHaveIEverCardView.xib; sourceTree = "<group>"; };
+		C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverCardView.swift; sourceTree = "<group>"; };
 		C6E178D923EB503C00196382 /* NeverHaveIEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverHaveIEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E178DC23EB503C00196382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E178DE23EB503C00196382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +82,8 @@
 		C6E1791623ECA6AF00196382 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C6E1791823ECA81900196382 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		C6E1791B23ECAC6700196382 /* nau.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nau.otf; sourceTree = "<group>"; };
+		C6E1791D23ED76DD00196382 /* SelectGameTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGameTypeViewController.swift; sourceTree = "<group>"; };
+		C6E1791F23ED78BE00196382 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		FF74F66BDBF3063FA82FF475 /* Pods_NeverHaveIEverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverHaveIEverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +125,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C6DBB11C23EDC768004B404E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBB11A23EDC764004B404E /* NeverHaveIEverModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C6DBB11D23EDC76D004B404E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C6DBB11E23EDC779004B404E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C6E178D023EB503C00196382 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +173,9 @@
 		C6E178DB23EB503C00196382 /* NeverHaveIEver */ = {
 			isa = PBXGroup;
 			children = (
+				C6DBB11E23EDC779004B404E /* Services */,
+				C6DBB11D23EDC76D004B404E /* Controllers */,
+				C6DBB11C23EDC768004B404E /* Models */,
 				C6E1790C23EC32D100196382 /* Views */,
 				C6E178DC23EB503C00196382 /* AppDelegate.swift */,
 				C6E178DE23EB503C00196382 /* SceneDelegate.swift */,
@@ -176,7 +211,9 @@
 			children = (
 				C6E1790D23EC32DB00196382 /* Custom */,
 				C6E1791223EC81AA00196382 /* MenuViewController.swift */,
+				C6E1791D23ED76DD00196382 /* SelectGameTypeViewController.swift */,
 				C6E1791423EC858B00196382 /* NeverHaveIEverViewController.swift */,
+				C6E1791F23ED78BE00196382 /* SplashViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +225,8 @@
 				C6E1791023EC812000196382 /* MenuButton.swift */,
 				C6E1791623ECA6AF00196382 /* CardView.swift */,
 				C6E1791823ECA81900196382 /* ActionButton.swift */,
+				C6DBB12123EDCC5A004B404E /* NeverHaveIEverCardView.xib */,
+				C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -325,6 +364,7 @@
 				C6E178E923EB503F00196382 /* LaunchScreen.storyboard in Resources */,
 				C6E178E623EB503F00196382 /* Assets.xcassets in Resources */,
 				C6E1791C23ECAC6700196382 /* nau.otf in Resources */,
+				C6DBB12223EDCC5A004B404E /* NeverHaveIEverCardView.xib in Resources */,
 				C6E178E423EB503C00196382 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,11 +497,15 @@
 				C6E1791323EC81AA00196382 /* MenuViewController.swift in Sources */,
 				C6E178DD23EB503C00196382 /* AppDelegate.swift in Sources */,
 				C6E1791123EC812000196382 /* MenuButton.swift in Sources */,
+				C6E1791E23ED76DD00196382 /* SelectGameTypeViewController.swift in Sources */,
 				C6E1791523EC858B00196382 /* NeverHaveIEverViewController.swift in Sources */,
 				C6E1791923ECA81900196382 /* ActionButton.swift in Sources */,
 				C6E1790F23EC32F500196382 /* GradientView.swift in Sources */,
+				C6DBB12423EDCF9C004B404E /* NeverHaveIEverCardView.swift in Sources */,
+				C6DBB11B23EDC764004B404E /* NeverHaveIEverModel.swift in Sources */,
 				C6E1791723ECA6AF00196382 /* CardView.swift in Sources */,
 				C6E178DF23EB503C00196382 /* SceneDelegate.swift in Sources */,
+				C6E1792023ED78BE00196382 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

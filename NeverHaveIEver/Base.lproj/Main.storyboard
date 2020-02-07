@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1q3-dg-JMW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pz8-xv-jmq">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -135,19 +135,70 @@
             </objects>
             <point key="canvasLocation" x="228.98550724637684" y="181.47321428571428"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="55L-lF-5oV">
+        <!--Splash View Controller-->
+        <scene sceneID="a9D-Pb-uML">
             <objects>
-                <viewController id="1q3-dg-JMW" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SQr-LU-KrR">
+                <viewController id="pz8-xv-jmq" customClass="SplashViewController" customModule="NeverHaveIEver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iCS-v9-GfA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-HN-2cb" customClass="GradientView" customModule="NeverHaveIEver" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ILW-z1-bVS" customClass="GradientView" customModule="NeverHaveIEver" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" red="0.78343755010000005" green="0.23117372389999999" blue="0.98947042230000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="0.92652004960000001" green="0.24152708049999999" blue="0.71551316980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="horizontalMode" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="startLocation">
+                                        <real key="value" value="0.25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="endLocation">
+                                        <real key="value" value="0.80000000000000004"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="diagonalMode" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="0zd-4q-HZk">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ILW-z1-bVS" firstAttribute="leading" secondItem="hED-Cj-Lc2" secondAttribute="leading" id="I4b-Sr-7gG"/>
+                            <constraint firstItem="ILW-z1-bVS" firstAttribute="top" secondItem="iCS-v9-GfA" secondAttribute="topMargin" constant="-44" id="Z1m-Iq-XVQ"/>
+                            <constraint firstItem="ILW-z1-bVS" firstAttribute="centerX" secondItem="iCS-v9-GfA" secondAttribute="centerX" id="cXh-wz-qdO"/>
+                            <constraint firstItem="ILW-z1-bVS" firstAttribute="centerY" secondItem="iCS-v9-GfA" secondAttribute="centerY" id="dtt-3x-Rwz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hED-Cj-Lc2"/>
+                    </view>
+                    <connections>
+                        <segue destination="1q3-dg-JMW" kind="showDetail" identifier="goToSelectGameType" id="cgr-cE-aS3"/>
+                        <segue destination="1ge-43-HKW" kind="showDetail" identifier="goToCardScreen" id="3mf-DO-dkU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JcX-ng-PPs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3183" y="46"/>
+        </scene>
+        <!--Select Game Type View Controller-->
+        <scene sceneID="55L-lF-5oV">
+            <objects>
+                <viewController id="1q3-dg-JMW" customClass="SelectGameTypeViewController" customModule="NeverHaveIEver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SQr-LU-KrR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-HN-2cb" customClass="GradientView" customModule="NeverHaveIEver" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKB-h5-OYg" customClass="CardView" customModule="NeverHaveIEver" customModuleProvider="target">
-                                        <rect key="frame" x="57" y="303" width="300" height="290"/>
+                                        <rect key="frame" x="57" y="276" width="300" height="290"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCx-M4-KVM" customClass="ActionButton" customModule="NeverHaveIEver" customModuleProvider="target">
                                                 <rect key="frame" x="55" y="55" width="190" height="60"/>
@@ -175,6 +226,9 @@
                                                         <size key="value" width="0.30000000000000071" height="0.5"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="onTeenSelected:" destination="1q3-dg-JMW" eventType="touchUpInside" id="kFW-XC-kkm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQd-bc-LAn" customClass="ActionButton" customModule="NeverHaveIEver" customModuleProvider="target">
                                                 <rect key="frame" x="55" y="175" width="190" height="60"/>
@@ -202,6 +256,9 @@
                                                         <size key="value" width="0.29999999999999999" height="0.5"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="onAdultSlected:" destination="1q3-dg-JMW" eventType="touchUpInside" id="S9f-Ef-o2k"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -228,7 +285,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What Version do you want to play ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqz-1W-ggP">
-                                        <rect key="frame" x="50" y="182" width="314" height="81"/>
+                                        <rect key="frame" x="50" y="155" width="314" height="81"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="81" id="AnO-5H-fTk"/>
                                         </constraints>
@@ -272,6 +329,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xYq-hE-Qbn"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Abr-bM-h3M"/>
                     <connections>
                         <segue destination="1ge-43-HKW" kind="show" identifier="goToCardScreen" id="26D-xt-lUD"/>
                     </connections>
@@ -290,7 +348,32 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipi-1u-EYd" customClass="GradientView" customModule="NeverHaveIEver" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FK5-Qx-74m">
+                                        <rect key="frame" x="57" y="268" width="300" height="306"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="306" id="93q-td-Nw8"/>
+                                            <constraint firstAttribute="width" constant="300" id="lno-6Q-8eW"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="2" height="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="FK5-Qx-74m" firstAttribute="centerX" secondItem="ipi-1u-EYd" secondAttribute="centerX" id="K6Y-kd-OgB"/>
+                                    <constraint firstItem="FK5-Qx-74m" firstAttribute="centerY" secondItem="ipi-1u-EYd" secondAttribute="centerY" id="MeW-nt-gys"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="startColor">
                                         <color key="value" red="0.78343755010000005" green="0.23117372389999999" blue="0.98947042230000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -334,15 +417,19 @@
                     </view>
                     <navigationItem key="navigationItem" id="tGa-Uc-c4O"/>
                     <connections>
+                        <outlet property="containerView" destination="FK5-Qx-74m" id="qsc-9m-x8D"/>
                         <outlet property="menuIcon" destination="69O-Ia-a3c" id="bSu-kH-QKB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p7i-sa-x9D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1586" y="183"/>
+            <point key="canvasLocation" x="-1586.9565217391305" y="182.8125"/>
         </scene>
     </scenes>
     <resources>
         <image name="menu_icon" width="72" height="72"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="3mf-DO-dkU"/>
+    </inferredMetricsTieBreakers>
 </document>

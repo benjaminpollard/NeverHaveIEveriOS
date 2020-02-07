@@ -39,12 +39,14 @@ PODS:
   - RealmSwift (5.0.0-beta.2):
     - Realm (= 5.0.0-beta.2)
   - SideMenu (6.4.7)
+  - SwiftyJSON (5.0.0)
   - TinderSwipeView (1.1.8)
 
 DEPENDENCIES:
   - MaterialComponents/Cards
   - MDPersistence (from `https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod`)
   - SideMenu (from `https://github.com/benjaminpollard/SideMenu`, commit `d0c401d770bad63b82d3e69c3eab4697b2ae234e`)
+  - SwiftyJSON (= 5.0.0)
   - TinderSwipeView
 
 SPEC REPOS:
@@ -52,6 +54,7 @@ SPEC REPOS:
     - MaterialComponents
     - Realm
     - RealmSwift
+    - SwiftyJSON
     - TinderSwipeView
 
 EXTERNAL SOURCES:
@@ -75,8 +78,9 @@ SPEC CHECKSUMS:
   Realm: d4359a0d12a7abd3566e12df4e12ad450ba64633
   RealmSwift: 2c2271c1a5c07b812840ac0576dde12294cee82c
   SideMenu: 928a015669c3afc201e1fe3a87f1b0bc8993a664
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
 
-PODFILE CHECKSUM: 5354eec820791c90033afee6ea536012456edc16
+PODFILE CHECKSUM: 3b57da87e3e4af7c9e1b76329f7301f99d72dfec
 
 COCOAPODS: 1.8.4
