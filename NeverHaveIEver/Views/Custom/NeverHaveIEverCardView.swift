@@ -30,12 +30,22 @@ class NeverHaveIEverCardView : UIView {
         super.init(coder: aDecoder)
         commonInit()
     }
-    
+    let kCONTENT_XIB_NAME = "NeverHaveIEverCardView"
+
     func commonInit() {
-        Bundle.main.loadNibNamed(NeverHaveIEverModel.className, owner: self, options: nil)
+        //Bundle.main.loadNibNamed("NeverHaveIEverCardView", owner: self, options: nil)
+        let bundle = Bundle(for: type(of: self))
+             let nib = UINib(nibName: String(describing: type(of: self)), bundle: bundle)
+
+             let view = nib.instantiate(withOwner: self, options: nil).first as! UIView
+             
+             addSubview(view)
+        
         contentView.fixInView(self)
         
     }
+    
+   
 
 }
 

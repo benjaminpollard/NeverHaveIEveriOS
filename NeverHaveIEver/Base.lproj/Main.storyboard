@@ -15,11 +15,10 @@
         <!--Side Menu Navigation Controller-->
         <scene sceneID="gWT-cU-0vd">
             <objects>
-                <navigationController navigationBarHidden="YES" id="oYo-oB-GJF" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                <navigationController modalPresentationStyle="fullScreen" navigationBarHidden="YES" id="oYo-oB-GJF" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="53R-Tt-MYV"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qnc-15-Lka">
-                        <rect key="frame" x="0.0" y="-54" width="0.0" height="0.0"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <userDefinedRuntimeAttributes>
@@ -38,14 +37,14 @@
             <objects>
                 <viewController id="76j-L9-ela" customClass="MenuViewController" customModule="NeverHaveIEver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ri-xO-8yc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t26-nf-9Mf" customClass="GradientView" customModule="NeverHaveIEver" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Mqd-IM-xSh">
-                                        <rect key="frame" x="117" y="311" width="180" height="220"/>
+                                        <rect key="frame" x="117" y="338" width="180" height="220"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oma-R3-bav">
                                                 <rect key="frame" x="0.0" y="0.0" width="180" height="44"/>
@@ -189,16 +188,16 @@
         <!--Select Game Type View Controller-->
         <scene sceneID="55L-lF-5oV">
             <objects>
-                <viewController id="1q3-dg-JMW" customClass="SelectGameTypeViewController" customModule="NeverHaveIEver" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="1q3-dg-JMW" customClass="SelectGameTypeViewController" customModule="NeverHaveIEver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SQr-LU-KrR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-HN-2cb" customClass="GradientView" customModule="NeverHaveIEver" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKB-h5-OYg" customClass="CardView" customModule="NeverHaveIEver" customModuleProvider="target">
-                                        <rect key="frame" x="57" y="276" width="300" height="290"/>
+                                        <rect key="frame" x="57" y="303" width="300" height="290"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCx-M4-KVM" customClass="ActionButton" customModule="NeverHaveIEver" customModuleProvider="target">
                                                 <rect key="frame" x="55" y="55" width="190" height="60"/>
@@ -285,7 +284,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What Version do you want to play ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqz-1W-ggP">
-                                        <rect key="frame" x="50" y="155" width="314" height="81"/>
+                                        <rect key="frame" x="50" y="182" width="314" height="81"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="81" id="AnO-5H-fTk"/>
                                         </constraints>
@@ -341,16 +340,16 @@
         <!--Never HaveI Ever View Controller-->
         <scene sceneID="HMO-tG-DRl">
             <objects>
-                <viewController id="1ge-43-HKW" customClass="NeverHaveIEverViewController" customModule="NeverHaveIEver" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="1ge-43-HKW" customClass="NeverHaveIEverViewController" customModule="NeverHaveIEver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZfF-aD-1WU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipi-1u-EYd" customClass="GradientView" customModule="NeverHaveIEver" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FK5-Qx-74m">
-                                        <rect key="frame" x="57" y="268" width="300" height="306"/>
+                                        <rect key="frame" x="57" y="295" width="300" height="306"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="306" id="93q-td-Nw8"/>
@@ -392,7 +391,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69O-Ia-a3c">
-                                <rect key="frame" x="16" y="16" width="30" height="30"/>
+                                <rect key="frame" x="16" y="60" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Vox-Qm-T70"/>
                                     <constraint firstAttribute="height" constant="30" id="bfD-By-rtE"/>
@@ -430,6 +429,6 @@
         <image name="menu_icon" width="72" height="72"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3mf-DO-dkU"/>
+        <segue reference="26D-xt-lUD"/>
     </inferredMetricsTieBreakers>
 </document>
