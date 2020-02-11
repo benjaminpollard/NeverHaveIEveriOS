@@ -12,6 +12,8 @@
 		C6DBB11B23EDC764004B404E /* NeverHaveIEverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB11A23EDC764004B404E /* NeverHaveIEverModel.swift */; };
 		C6DBB12223EDCC5A004B404E /* NeverHaveIEverCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DBB12123EDCC5A004B404E /* NeverHaveIEverCardView.xib */; };
 		C6DBB12423EDCF9C004B404E /* NeverHaveIEverCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */; };
+		C6DBB12B23F2C726004B404E /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12A23F2C726004B404E /* TinderCard.swift */; };
+		C6DBB12D23F2C748004B404E /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12C23F2C748004B404E /* TinderSwipeView.swift */; };
 		C6E178DD23EB503C00196382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DC23EB503C00196382 /* AppDelegate.swift */; };
 		C6E178DF23EB503C00196382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DE23EB503C00196382 /* SceneDelegate.swift */; };
 		C6E178E123EB503C00196382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178E023EB503C00196382 /* ViewController.swift */; };
@@ -61,6 +63,8 @@
 		C6DBB11A23EDC764004B404E /* NeverHaveIEverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverModel.swift; sourceTree = "<group>"; };
 		C6DBB12123EDCC5A004B404E /* NeverHaveIEverCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeverHaveIEverCardView.xib; sourceTree = "<group>"; };
 		C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverCardView.swift; sourceTree = "<group>"; };
+		C6DBB12A23F2C726004B404E /* TinderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCard.swift; sourceTree = "<group>"; };
+		C6DBB12C23F2C748004B404E /* TinderSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipeView.swift; sourceTree = "<group>"; };
 		C6E178D923EB503C00196382 /* NeverHaveIEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverHaveIEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E178DC23EB503C00196382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E178DE23EB503C00196382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -227,6 +231,8 @@
 				C6E1791823ECA81900196382 /* ActionButton.swift */,
 				C6DBB12123EDCC5A004B404E /* NeverHaveIEverCardView.xib */,
 				C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */,
+				C6DBB12A23F2C726004B404E /* TinderCard.swift */,
+				C6DBB12C23F2C748004B404E /* TinderSwipeView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -502,9 +508,11 @@
 				C6E1791923ECA81900196382 /* ActionButton.swift in Sources */,
 				C6E1790F23EC32F500196382 /* GradientView.swift in Sources */,
 				C6DBB12423EDCF9C004B404E /* NeverHaveIEverCardView.swift in Sources */,
+				C6DBB12B23F2C726004B404E /* TinderCard.swift in Sources */,
 				C6DBB11B23EDC764004B404E /* NeverHaveIEverModel.swift in Sources */,
 				C6E1791723ECA6AF00196382 /* CardView.swift in Sources */,
 				C6E178DF23EB503C00196382 /* SceneDelegate.swift in Sources */,
+				C6DBB12D23F2C748004B404E /* TinderSwipeView.swift in Sources */,
 				C6E1792023ED78BE00196382 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

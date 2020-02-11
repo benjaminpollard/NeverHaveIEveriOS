@@ -40,14 +40,12 @@ PODS:
     - Realm (= 5.0.0-beta.2)
   - SideMenu (6.4.7)
   - SwiftyJSON (5.0.0)
-  - TinderSwipeView (1.1.8)
 
 DEPENDENCIES:
   - MaterialComponents/Cards
   - MDPersistence (from `https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod`)
   - SideMenu (from `https://github.com/benjaminpollard/SideMenu`, commit `d0c401d770bad63b82d3e69c3eab4697b2ae234e`)
   - SwiftyJSON (= 5.0.0)
-  - TinderSwipeView (from `https://github.com/benjaminpollard/TinderSwipeView`, commit `fb9daf73444b789d38f6cbdb9c0be608908a2e35`)
 
 SPEC REPOS:
   trunk:
@@ -62,9 +60,6 @@ EXTERNAL SOURCES:
   SideMenu:
     :commit: d0c401d770bad63b82d3e69c3eab4697b2ae234e
     :git: https://github.com/benjaminpollard/SideMenu
-  TinderSwipeView:
-    :commit: fb9daf73444b789d38f6cbdb9c0be608908a2e35
-    :git: https://github.com/benjaminpollard/TinderSwipeView
 
 CHECKOUT OPTIONS:
   MDPersistence:
@@ -73,9 +68,6 @@ CHECKOUT OPTIONS:
   SideMenu:
     :commit: d0c401d770bad63b82d3e69c3eab4697b2ae234e
     :git: https://github.com/benjaminpollard/SideMenu
-  TinderSwipeView:
-    :commit: fb9daf73444b789d38f6cbdb9c0be608908a2e35
-    :git: https://github.com/benjaminpollard/TinderSwipeView
 
 SPEC CHECKSUMS:
   MaterialComponents: 0312a643d1aed5e5f10cba4be06a6aa62bd07c14
@@ -84,8 +76,7 @@ SPEC CHECKSUMS:
   RealmSwift: 2c2271c1a5c07b812840ac0576dde12294cee82c
   SideMenu: 928a015669c3afc201e1fe3a87f1b0bc8993a664
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
-  TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
 
-PODFILE CHECKSUM: 31adf6fafc093e8cdcb2a55bb34c55f46c7f4ec4
+PODFILE CHECKSUM: d1a748883082e5626eac3798fb3398641ad8f6ec
 
 COCOAPODS: 1.8.4

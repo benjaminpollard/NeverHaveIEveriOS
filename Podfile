@@ -8,7 +8,6 @@ target 'NeverHaveIEver' do
   # Pods for NeverHaveIEver
     pod 'MDPersistence', :git => 'https://github.com/MosquitoDigitalLtd/DatabaseService_SwiftPod'
     pod 'SideMenu', :git => 'https://github.com/benjaminpollard/SideMenu', :commit => 'd0c401d770bad63b82d3e69c3eab4697b2ae234e'
-    pod 'TinderSwipeView', :git => 'https://github.com/benjaminpollard/TinderSwipeView', :commit => 'fb9daf73444b789d38f6cbdb9c0be608908a2e35'
     pod 'SwiftyJSON', '5.0.0'
     pod 'MaterialComponents/Cards'
     

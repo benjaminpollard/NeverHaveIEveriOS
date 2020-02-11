@@ -9,7 +9,6 @@
 import Foundation
 import SideMenu
 import UIKit
-import TinderSwipeView
 
 class NeverHaveIEverViewController : UIViewController , TinderSwipeViewDelegate {
     let userModels : [NeverHaveIEverModel] =  {
