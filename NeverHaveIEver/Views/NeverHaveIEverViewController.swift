@@ -22,6 +22,8 @@ class NeverHaveIEverViewController : UIViewController , TinderSwipeViewDelegate 
        }()
     
     
+    @IBOutlet weak var reloadCard: CardView!
+    
     public var SectionType = "";
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -58,6 +60,8 @@ class NeverHaveIEverViewController : UIViewController , TinderSwipeViewDelegate 
           containerView.addSubview(swipeView)
           swipeView.showTinderCards(with: userModels ,isDummyShow: true)
         
+        reloadCard.isHidden = true;
+        
     }
     
     @objc func customViewButtonSelected(button:UIButton){
@@ -92,8 +96,12 @@ class NeverHaveIEverViewController : UIViewController , TinderSwipeViewDelegate 
     }
     
     func endOfCardsReached() {
-        
+        reloadCard.isHidden = false;
     }
 
+    @IBAction func reloadCards(_ sender: Any) {
+        reloadCard.isHidden = true;
+        swipeView.showTinderCards(with: userModels ,isDummyShow: true)
+    }
 }
 
