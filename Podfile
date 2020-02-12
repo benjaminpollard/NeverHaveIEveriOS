@@ -10,7 +10,10 @@ target 'NeverHaveIEver' do
     pod 'SideMenu', :git => 'https://github.com/benjaminpollard/SideMenu', :commit => 'd0c401d770bad63b82d3e69c3eab4697b2ae234e'
     pod 'SwiftyJSON', '5.0.0'
     pod 'MaterialComponents/Cards'
-    
+    pod 'Alamofire', '4.9.0'
+    pod 'Toast-Swift', '~> 5.0.1'
+    pod 'Firebase/Analytics'
+
   target 'NeverHaveIEverTests' do
     inherit! :search_paths
     # Pods for testing

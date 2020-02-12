@@ -14,6 +14,14 @@
 		C6DBB12423EDCF9C004B404E /* NeverHaveIEverCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */; };
 		C6DBB12B23F2C726004B404E /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12A23F2C726004B404E /* TinderCard.swift */; };
 		C6DBB12D23F2C748004B404E /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12C23F2C748004B404E /* TinderSwipeView.swift */; };
+		C6DBB13023F2F5F4004B404E /* NeverHaveIEverCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB12F23F2F5F4004B404E /* NeverHaveIEverCardController.swift */; };
+		C6DBB13223F2F609004B404E /* NeverHaveIEverApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB13123F2F609004B404E /* NeverHaveIEverApiService.swift */; };
+		C6DBB13423F33C5B004B404E /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB13323F33C5A004B404E /* ResponseModel.swift */; };
+		C6DBB13623F3456A004B404E /* AddYourOwnViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB13523F3456A004B404E /* AddYourOwnViewContoller.swift */; };
+		C6DBB13823F46AB5004B404E /* AddCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB13723F46AB4004B404E /* AddCardController.swift */; };
+		C6DBB13A23F478E5004B404E /* PersistenceMigrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB13923F478E5004B404E /* PersistenceMigrationService.swift */; };
+		C6DBB13C23F49252004B404E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6DBB13B23F49252004B404E /* GoogleService-Info.plist */; };
+		C6DBB13E23F49339004B404E /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DBB13D23F49339004B404E /* AnalyticsService.swift */; };
 		C6E178DD23EB503C00196382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DC23EB503C00196382 /* AppDelegate.swift */; };
 		C6E178DF23EB503C00196382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178DE23EB503C00196382 /* SceneDelegate.swift */; };
 		C6E178E123EB503C00196382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E178E023EB503C00196382 /* ViewController.swift */; };
@@ -65,6 +73,14 @@
 		C6DBB12323EDCF9C004B404E /* NeverHaveIEverCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverCardView.swift; sourceTree = "<group>"; };
 		C6DBB12A23F2C726004B404E /* TinderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCard.swift; sourceTree = "<group>"; };
 		C6DBB12C23F2C748004B404E /* TinderSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipeView.swift; sourceTree = "<group>"; };
+		C6DBB12F23F2F5F4004B404E /* NeverHaveIEverCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverCardController.swift; sourceTree = "<group>"; };
+		C6DBB13123F2F609004B404E /* NeverHaveIEverApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverApiService.swift; sourceTree = "<group>"; };
+		C6DBB13323F33C5A004B404E /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		C6DBB13523F3456A004B404E /* AddYourOwnViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddYourOwnViewContoller.swift; sourceTree = "<group>"; };
+		C6DBB13723F46AB4004B404E /* AddCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardController.swift; sourceTree = "<group>"; };
+		C6DBB13923F478E5004B404E /* PersistenceMigrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceMigrationService.swift; sourceTree = "<group>"; };
+		C6DBB13B23F49252004B404E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6DBB13D23F49339004B404E /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
 		C6E178D923EB503C00196382 /* NeverHaveIEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverHaveIEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E178DC23EB503C00196382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E178DE23EB503C00196382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				C6DBB11A23EDC764004B404E /* NeverHaveIEverModel.swift */,
+				C6DBB13323F33C5A004B404E /* ResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +157,8 @@
 		C6DBB11D23EDC76D004B404E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C6DBB12F23F2F5F4004B404E /* NeverHaveIEverCardController.swift */,
+				C6DBB13723F46AB4004B404E /* AddCardController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,6 +166,9 @@
 		C6DBB11E23EDC779004B404E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C6DBB13123F2F609004B404E /* NeverHaveIEverApiService.swift */,
+				C6DBB13923F478E5004B404E /* PersistenceMigrationService.swift */,
+				C6DBB13D23F49339004B404E /* AnalyticsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -186,6 +208,7 @@
 				C6E178E023EB503C00196382 /* ViewController.swift */,
 				C6E178E223EB503C00196382 /* Main.storyboard */,
 				C6E178E523EB503F00196382 /* Assets.xcassets */,
+				C6DBB13B23F49252004B404E /* GoogleService-Info.plist */,
 				C6E178E723EB503F00196382 /* LaunchScreen.storyboard */,
 				C6E178EA23EB503F00196382 /* Info.plist */,
 			);
@@ -218,6 +241,7 @@
 				C6E1791D23ED76DD00196382 /* SelectGameTypeViewController.swift */,
 				C6E1791423EC858B00196382 /* NeverHaveIEverViewController.swift */,
 				C6E1791F23ED78BE00196382 /* SplashViewController.swift */,
+				C6DBB13523F3456A004B404E /* AddYourOwnViewContoller.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -372,6 +396,7 @@
 				C6E1791C23ECAC6700196382 /* nau.otf in Resources */,
 				C6DBB12223EDCC5A004B404E /* NeverHaveIEverCardView.xib in Resources */,
 				C6E178E423EB503C00196382 /* Main.storyboard in Resources */,
+				C6DBB13C23F49252004B404E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,18 +524,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DBB13623F3456A004B404E /* AddYourOwnViewContoller.swift in Sources */,
 				C6E178E123EB503C00196382 /* ViewController.swift in Sources */,
 				C6E1791323EC81AA00196382 /* MenuViewController.swift in Sources */,
+				C6DBB13023F2F5F4004B404E /* NeverHaveIEverCardController.swift in Sources */,
 				C6E178DD23EB503C00196382 /* AppDelegate.swift in Sources */,
 				C6E1791123EC812000196382 /* MenuButton.swift in Sources */,
 				C6E1791E23ED76DD00196382 /* SelectGameTypeViewController.swift in Sources */,
 				C6E1791523EC858B00196382 /* NeverHaveIEverViewController.swift in Sources */,
 				C6E1791923ECA81900196382 /* ActionButton.swift in Sources */,
+				C6DBB13823F46AB5004B404E /* AddCardController.swift in Sources */,
 				C6E1790F23EC32F500196382 /* GradientView.swift in Sources */,
 				C6DBB12423EDCF9C004B404E /* NeverHaveIEverCardView.swift in Sources */,
+				C6DBB13423F33C5B004B404E /* ResponseModel.swift in Sources */,
 				C6DBB12B23F2C726004B404E /* TinderCard.swift in Sources */,
 				C6DBB11B23EDC764004B404E /* NeverHaveIEverModel.swift in Sources */,
+				C6DBB13A23F478E5004B404E /* PersistenceMigrationService.swift in Sources */,
+				C6DBB13223F2F609004B404E /* NeverHaveIEverApiService.swift in Sources */,
 				C6E1791723ECA6AF00196382 /* CardView.swift in Sources */,
+				C6DBB13E23F49339004B404E /* AnalyticsService.swift in Sources */,
 				C6E178DF23EB503C00196382 /* SceneDelegate.swift in Sources */,
 				C6DBB12D23F2C748004B404E /* TinderSwipeView.swift in Sources */,
 				C6E1792023ED78BE00196382 /* SplashViewController.swift in Sources */,

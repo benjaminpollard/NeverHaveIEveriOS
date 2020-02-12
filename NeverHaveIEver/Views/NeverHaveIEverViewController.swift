@@ -9,8 +9,11 @@
 import Foundation
 import SideMenu
 import UIKit
-
+import MDPersistence
 class NeverHaveIEverViewController : UIViewController , TinderSwipeViewDelegate {
+    
+    var controller : NeverHaveIEverCardController!;
+    
     let userModels : [NeverHaveIEverModel] =  {
            var model : [NeverHaveIEverModel] = []
            for n in 1...30 {
@@ -44,6 +47,7 @@ class NeverHaveIEverViewController : UIViewController , TinderSwipeViewDelegate 
         menuIcon.imageView?.tintColor = UIColor.white
         menuIcon.tintColor =  UIColor.white
        
+        controller = NeverHaveIEverCardController(database: PersistenceService(migrationHelperProtocol: PersistenceMigrationService()), neverHaveIEverApiService: NeverHaveIEverApiService(), analytics: AnalyticsService())
         
         let menu = SideMenuNavigationController(rootViewController: self)
         menu.presentationStyle.backgroundColor = .clear
@@ -84,7 +88,7 @@ class NeverHaveIEverViewController : UIViewController , TinderSwipeViewDelegate 
     }
     
     func cardGoesLeft(model: Any) {
-        
+        controller.OnCardVotedBad(id: (model as! NeverHaveIEverModel).id)
     }
     
     func cardGoesRight(model: Any) {

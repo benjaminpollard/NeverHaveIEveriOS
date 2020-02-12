@@ -42,6 +42,15 @@ class MenuViewController :ViewController {
         }
     }
     
+    @IBOutlet weak var addYourOWnMenuButton: UIButton!
+    {
+        didSet{
+            addYourOWnMenuButton.backgroundColor = .clear
+            addYourOWnMenuButton.layer.cornerRadius = 22
+            addYourOWnMenuButton.layer.borderWidth = 2
+            addYourOWnMenuButton.layer.borderColor = UIColor.white.cgColor
+        }
+    }
     
     @IBAction func onTeenButtonPress(_ sender: Any) {
     }
@@ -49,5 +58,7 @@ class MenuViewController :ViewController {
     @IBAction func onAdultButtonPress(_ sender: Any) {
     }
     @IBAction func onSettingsButotnPress(_ sender: Any) {
+    }
+    @IBAction func onCreatOwnButtonPress(_ sender: Any) {
     }
 }

@@ -20,6 +20,13 @@ class NeverHaveIEverModel : Object {
     @objc dynamic var seen: Bool = false;
 
     @objc dynamic var votedBad: Bool = false;
+    
+    @objc dynamic var userCreated: Bool = false;
+    
+    let catagorys = List<String>()
+    
+    
+
 
     /**
      String. Use to identify object.
