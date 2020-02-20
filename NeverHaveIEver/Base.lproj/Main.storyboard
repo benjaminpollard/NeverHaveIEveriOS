@@ -45,7 +45,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Mqd-IM-xSh">
-                                        <rect key="frame" x="117" y="294" width="180" height="308"/>
+                                        <rect key="frame" x="117" y="206" width="180" height="484"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGi-2x-6pB">
                                                 <rect key="frame" x="0.0" y="0.0" width="180" height="44"/>
@@ -68,29 +68,57 @@
                                                     <constraint firstAttribute="height" constant="44" id="g2M-Ae-9HE"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <state key="normal" title="TEEN">
+                                                <state key="normal" title="NAUGHTY">
                                                     <color key="titleColor" red="0.95628672839999995" green="0.95558923480000002" blue="0.97365838289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="onTeenButtonPress:" destination="76j-L9-ela" eventType="touchUpInside" id="vzh-fM-o35"/>
+                                                    <action selector="onNaughtyButtonPress:" destination="76j-L9-ela" eventType="touchUpInside" id="4en-J2-Z3v"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PC-cs-KUC">
+                                                <rect key="frame" x="0.0" y="176" width="180" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="rTe-OQ-u5n"/>
+                                                    <constraint firstAttribute="width" constant="180" id="vqY-e3-Pob"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <state key="normal" title="CLEAN">
+                                                    <color key="titleColor" red="0.95628672839999995" green="0.95558923480000002" blue="0.97365838289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onCleanButtonPress:" destination="76j-L9-ela" eventType="touchUpInside" id="RaU-eg-XB4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzH-ZB-aCD">
+                                                <rect key="frame" x="0.0" y="264" width="180" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="Cu4-hT-ApO"/>
+                                                    <constraint firstAttribute="height" constant="44" id="mqU-hF-6mc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <state key="normal" title="EXPOSED">
+                                                    <color key="titleColor" red="0.95628672839999995" green="0.95558923480000002" blue="0.97365838289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onExposedButtonPress:" destination="76j-L9-ela" eventType="touchUpInside" id="qSk-Uz-yg8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXT-bu-n6h">
-                                                <rect key="frame" x="0.0" y="176" width="180" height="44"/>
+                                                <rect key="frame" x="0.0" y="352" width="180" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="b1r-zL-eSc"/>
                                                     <constraint firstAttribute="width" constant="180" id="zZ0-Wn-CNJ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <state key="normal" title="ADULT">
+                                                <state key="normal" title="COUPLES">
                                                     <color key="titleColor" red="0.95628672839999995" green="0.95558923480000002" blue="0.97365838289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="onAdultButtonPress:" destination="76j-L9-ela" eventType="touchUpInside" id="FiW-9q-9bf"/>
+                                                    <action selector="onCouplesButtonPress:" destination="76j-L9-ela" eventType="touchUpInside" id="Y0w-bU-6iA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqV-ea-2d7">
-                                                <rect key="frame" x="0.0" y="264" width="180" height="44"/>
+                                                <rect key="frame" x="0.0" y="440" width="180" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="180" id="EYi-8H-Nvf"/>
                                                     <constraint firstAttribute="height" constant="44" id="lHJ-xO-xCa"/>
@@ -141,9 +169,11 @@
                     <navigationItem key="navigationItem" id="X7H-GY-099"/>
                     <connections>
                         <outlet property="addYourOWnMenuButton" destination="LGi-2x-6pB" id="0dz-pQ-WSN"/>
-                        <outlet property="adultMenuButton" destination="vXT-bu-n6h" id="Waq-Vk-iRk"/>
+                        <outlet property="cleanMenuButton" destination="5PC-cs-KUC" id="5N8-mw-xzb"/>
+                        <outlet property="couplesMenuButton" destination="vXT-bu-n6h" id="g45-pX-8Yf"/>
+                        <outlet property="exposedMenuButton" destination="MzH-ZB-aCD" id="9Ng-p9-duW"/>
+                        <outlet property="naughtyMenuButton" destination="oma-R3-bav" id="4gO-5r-Kad"/>
                         <outlet property="settingsMenuButton" destination="rqV-ea-2d7" id="9pO-pf-Fav"/>
-                        <outlet property="teenMenuButton" destination="oma-R3-bav" id="wG9-b1-0fa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDy-Qj-e8h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -495,15 +525,27 @@
                                     <segue destination="oYo-oB-GJF" kind="presentation" id="mg9-HK-UiV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Left to not see the question again!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnD-BN-sW4">
+                                <rect key="frame" x="0.0" y="762" width="414" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="PO1-0o-MEF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="ipi-1u-EYd" firstAttribute="top" secondItem="ZfF-aD-1WU" secondAttribute="top" id="BMb-pc-bOt"/>
                             <constraint firstItem="KSU-6o-yBq" firstAttribute="centerY" secondItem="ipi-1u-EYd" secondAttribute="centerY" id="BfZ-mO-6xg"/>
                             <constraint firstItem="KSU-6o-yBq" firstAttribute="centerX" secondItem="ipi-1u-EYd" secondAttribute="centerX" id="DMm-yg-FJ7"/>
+                            <constraint firstItem="ISw-XT-CJe" firstAttribute="trailing" secondItem="QnD-BN-sW4" secondAttribute="trailing" id="KZq-FJ-uHY"/>
                             <constraint firstItem="69O-Ia-a3c" firstAttribute="leading" secondItem="ISw-XT-CJe" secondAttribute="leading" constant="16" id="L61-HW-HXd"/>
                             <constraint firstItem="69O-Ia-a3c" firstAttribute="top" secondItem="ISw-XT-CJe" secondAttribute="top" constant="16" id="ODn-mV-RSE"/>
                             <constraint firstItem="ipi-1u-EYd" firstAttribute="leading" secondItem="ISw-XT-CJe" secondAttribute="leading" id="RXa-4U-fki"/>
+                            <constraint firstItem="QnD-BN-sW4" firstAttribute="leading" secondItem="ISw-XT-CJe" secondAttribute="leading" id="atB-vM-Spa"/>
+                            <constraint firstItem="ISw-XT-CJe" firstAttribute="bottom" secondItem="QnD-BN-sW4" secondAttribute="bottom" constant="30" id="rIr-nb-tEB"/>
                             <constraint firstItem="ipi-1u-EYd" firstAttribute="trailing" secondItem="ISw-XT-CJe" secondAttribute="trailing" id="xMm-H5-gcu"/>
                             <constraint firstAttribute="bottom" secondItem="ipi-1u-EYd" secondAttribute="bottom" id="yLE-ej-gq2"/>
                         </constraints>
@@ -672,6 +714,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="26D-xt-lUD"/>
-        <segue reference="MYG-rl-PBc"/>
+        <segue reference="mg9-HK-UiV"/>
     </inferredMetricsTieBreakers>
 </document>
